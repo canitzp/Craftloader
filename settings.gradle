@@ -1,0 +1,6 @@
+rootProject.name = 'Craftloader'
+
+include 'CraftTweaker', 'TestMod'
+include 'Craftmine'
+include 'CraftPatcher'
+

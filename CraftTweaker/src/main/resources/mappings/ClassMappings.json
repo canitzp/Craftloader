@@ -1,0 +1,12 @@
+{
+  "mappings": [
+    {
+      "name": "net/minecraft/client/Minecraft",
+      "identifierType": 0,
+      "identifierStrings": [
+        "textures/gui/title/mojang.png"
+      ],
+      "identifierInt": 0
+    }
+  ]
+}

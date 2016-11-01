@@ -1,0 +1,32 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+}
+
+plugins {
+    id 'java'
+    id 'maven'
+
+    id 'idea'
+    id 'eclipse'
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+archivesBaseName = 'craftpatcher-1.0.0'
+
+repositories {
+    mavenCentral()
+    jcenter()
+    maven {
+        name = 'mojang'
+        url = 'https://libraries.minecraft.net/'
+    }
+}
+
+dependencies {
+    compile project(':Craftmine')
+
+}

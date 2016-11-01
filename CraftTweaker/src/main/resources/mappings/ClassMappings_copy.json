@@ -1,0 +1,59 @@
+{
+  "mappings": [
+    {
+      "name": "net/minecraft/client/Minecraft",
+      "identifierType": 0,
+      "identifierStrings": [
+        "textures/gui/title/mojang.png"
+      ],
+      "identifierInt": 0
+    },
+    {
+      "name": "net/minecraft/util/EnumColor",
+      "identifierType": 0,
+      "identifierStrings": [
+        "(?i)§[0-9A-FK-OR]"
+      ],
+      "identifierInt": 0
+    },
+    {
+      "name": "net/minecraft/init/Blocks",
+      "identifierType": 0,
+      "identifierStrings": [
+        "Accessed Blocks before Bootstrap!"
+      ],
+      "identifierInt": 0
+    },
+    {
+      "name": "net/minecraft/block/Block",
+      "identifierType": 0,
+      "identifierStrings": [
+        "Block{"
+      ],
+      "identifierInt": 0,
+      "moveChildClasses": true,
+      "childClassLocation": "net/minecraft/block/Block_"
+    },
+    {
+      "name": "net/minecraft/item/Item",
+      "identifierType": 0,
+      "identifierStrings": [
+        "CB3F55D3-645C-4F38-A497-9C13A33DB5CF",
+        "FA233E1C-4180-4865-B01B-BCCE9785ACA3"
+      ],
+      "identifierInt": 0,
+      "moveChildClasses": true,
+      "childClassLocation": "net/minecraft/item/Item_"
+    },
+    {
+      "name": "net/minecraft/client/renderer/TextureManager",
+      "identifierType": 0,
+      "identifierStrings": [
+        "Failed to load texture: {}",
+        "Registering texture",
+        "Resource location being registered"
+      ],
+      "identifierInt": 0
+    }
+  ]
+}

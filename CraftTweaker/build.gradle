@@ -1,0 +1,38 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+}
+
+plugins {
+    id 'java'
+    id 'maven'
+
+    id 'idea'
+    id 'eclipse'
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+archivesBaseName = 'craftloader-1.0.0'
+
+
+repositories {
+    mavenCentral()
+    jcenter()
+    maven {
+        name = 'mojang'
+        url = 'https://libraries.minecraft.net/'
+    }
+}
+
+dependencies {
+    compile 'com.google.code.findbugs:jsr305:3.0.1'
+    compile 'net.minecraft:launchwrapper:1.12'
+    compile 'org.ow2.asm:asm-debug-all:5.0.3'
+    compile 'com.typesafe:config:1.3.0'
+    compile 'com.mojang:authlib:1.5.22'
+    compile 'net.sf.jopt-simple:jopt-simple:5.0.2'
+    compile fileTree(dir: '../library')
+}

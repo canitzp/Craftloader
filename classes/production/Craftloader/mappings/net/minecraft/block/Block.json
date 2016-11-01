@@ -1,0 +1,10 @@
+{
+  "classname": "net/minecraft/block/Block",
+  "mappings": [
+    {
+      "name": "getItemBlock",
+      "desc": "(Lnet/minecraft/item/Item;)Lnet/minecraft/block/Block;",
+      "strings": []
+    }
+  ]
+}
